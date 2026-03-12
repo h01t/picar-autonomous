@@ -34,6 +34,12 @@ docs/.ipynb_checkpoints/
 **/.ipynb_checkpoints/
 *.ipynb_checkpoints
 
+# ─── Docs exports ─────────────────────────────────────────────────────────────
+# TIFF exports are too large for git (50-60 MB each). PNG at 600 DPI is sufficient.
+docs/exports/tiff/
+**/*.tiff
+**/*.tif
+
 # ─── Flutter / Dart ───────────────────────────────────────────────────────────
 app/build/
 app/.dart_tool/
